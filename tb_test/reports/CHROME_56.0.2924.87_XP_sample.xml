@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="12">
+
+  <testsuite name="sample"
+    errors="0" failures="1" hostname="" id="" package="sample" skipped="3"
+    tests="12" time="13.02" timestamp="Tue, 21 Feb 2017 03:41:59 GMT">
+  
+    <testcase name="PageLoadTest" time="3.891" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="OpenHomePageTest" time="0.2830" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="RandomPersonNameNotEmpty" time="2.247" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="RandomPersonHeightNotEmpty" time="0.06500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="SelectPlanet" time="0.4490" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="RandomPlanetNameNotEmpty" time="2.156" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="RandomPlanetRotationPeriodNotEmpty" time="0.05200" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="SelectStarship" time="0.3370" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="RandomStarshipNameNotEmpty" time="3.544" assertions="1">  <failure message="Expected element &lt;#starshipName&gt; to have value not equal to: &quot;&quot;">    at Object.RandomStarshipNameNotEmpty (C:\Users\tbabicheva\force-vue\tb_test\tests\sample.js:61:15)
+    at Module.call (C:\Users\tbabicheva\force-vue\tb_test\lib\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\tbabicheva\force-vue\tb_test\lib\nightwatch\lib\runner\testcase.js:70:29
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="AboutMenu">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="ContactMenu">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="SendEmail">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
